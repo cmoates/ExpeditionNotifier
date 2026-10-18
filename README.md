@@ -25,4 +25,4 @@ Copy both mod folders into `ue4ss/Mods/`.
 
 ## Notifications
 
-Run `PalEventDrop/tools/event-watcher.py` on your PC while playing (see PalEventDrop README).
+Run `PalEventDrop/tools/event-watcher.py` (Discord webhook + optional Infisical or `watcher-config.json`) while playing — see PalEventDrop README.
