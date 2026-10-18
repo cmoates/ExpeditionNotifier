@@ -162,4 +162,6 @@ end)
 log("v" .. VERSION .. " loaded; requires PalEventDrop")
 if not bus() then
     log("WARN: PalEventDrop missing — load PalEventDrop first in mods.txt")
+else
+    log("hook target: WBP_ExpeditionCompleteLog.SetLogText (Alt+F8 toggles publish)")
 end

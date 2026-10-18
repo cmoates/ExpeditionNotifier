@@ -25,4 +25,15 @@ Copy both mod folders into `ue4ss/Mods/`.
 
 ## Notifications
 
-Run `PalEventDrop/tools/event-watcher.py` (Discord webhook + optional Infisical or `watcher-config.json`) while playing — see PalEventDrop README.
+1. Configure Discord webhook (PalEventDrop README).
+2. Start **one** watcher: `python tools/event-watcher.py` or `tools/run-watcher.ps1`.
+3. Play Palworld with both mods enabled; finish an expedition.
+
+**Alt+F8** toggles publishing. Check `ue4ss/UE4SS.log` for `[ExpeditionNotifier]` and `[PalEventDrop]`.
+
+Preview Discord formatting without the game:
+
+```powershell
+cd path\to\PalEventDrop
+.\tools\write-test-expedition.ps1
+```
