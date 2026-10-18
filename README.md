@@ -1,13 +1,13 @@
 # ExpeditionNotifier
 
-UE4SS producer mod: hooks expedition-complete UI and publishes events via **[PalMaildir](https://github.com/cmoates/PalMaildir)**.
+UE4SS producer mod: hooks expedition-complete UI and publishes events via **[PalEventDrop](https://github.com/cmoates/PalEventDrop)**.
 
-Requires **PalMaildir** loaded first in `mods.txt`.
+Requires **PalEventDrop** loaded first in `mods.txt`.
 
 ## Install
 
 ```txt
-PalMaildir : 1
+PalEventDrop : 1
 ExpeditionNotifier : 1
 ```
 
@@ -25,4 +25,4 @@ Copy both mod folders into `ue4ss/Mods/`.
 
 ## Notifications
 
-Run `PalMaildir/tools/palmail-watcher.py` on your PC while playing (see PalMaildir README).
+Run `PalEventDrop/tools/event-watcher.py` on your PC while playing (see PalEventDrop README).

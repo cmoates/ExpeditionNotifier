@@ -3,7 +3,7 @@
   "PackageName": "ExpeditionNotifier",
   "Version": "1.0.0",
   "Author": "Chris Moates",
-  "Description": "Publishes expedition-complete events to PalMaildir (requires PalMaildir mod).",
+  "Description": "Publishes expedition-complete events to PalEventDrop (requires PalEventDrop mod).",
   "Dependencies": ["UE4SSExperimentalPW"],
   "Tags": ["UE4SS", "Gameplay"],
   "InstallRule": [
